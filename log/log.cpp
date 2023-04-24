@@ -162,5 +162,3 @@ void Log::flush(void)
     fflush(m_fp);
     m_mutex.unlock();
 }
-
-//test
